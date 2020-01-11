@@ -13,14 +13,7 @@ typedef struct node
     int data;
     struct node *next;
     struct node *prev;
-    linked_list_t linkedlist;
 }node_t;
-
-typedef struct linked_list
-{
-    struct node *next;
-    void *data;
-} linked_list_t;
 
 typedef struct save
 {
